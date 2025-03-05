@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>IMC</h1>
+
+        <form action="" id="form">
+
+            <label for="height">Sua Altura</label>
+            <input type="number" name="input01" id="height" placeholder="cm"/>
+
+            <label for="weight">Seu Peso</label>
+            <input type="number" name="input04" id="weight" placeholder="kg"/>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+        <div id="result"></div>
+        <div id="error"></div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./static/main.js"></script>
+</body>
+</html>
